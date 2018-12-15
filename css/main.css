@@ -7,6 +7,8 @@ html {
   border-radius: .3em;
   overflow: hidden;
   box-shadow: 0 .1em .4em rgba(0, 0, 0, .5);
+  position: relative;
+  z-index: 500;
 }
 
 .action-btn {
@@ -20,6 +22,13 @@ html {
 .action-btn:hover {
   background-color: #e2e2e2;
   color: #555;
+}
+
+.action-tools-top {
+  position: absolute;
+  z-index: 1000;
+  top: 1em;
+  left: 13em;
 }
 
 .action-tools-top .action-btn {
